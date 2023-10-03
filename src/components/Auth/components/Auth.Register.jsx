@@ -27,12 +27,15 @@ export const AuhtRegister = () => {
             placeholder="put your password here"
             onChange={handleChange}
           />
-          <Button onClick={handlingSubmitRegister} color="primary">
+          <Button
+            onClick={handlingSubmitRegister}
+            className=" bg-gradient-to-tr from-red-400 to-yellow-400 text-white"
+          >
             Register
           </Button>
         </div>
       </div>
-      <div className="bg-green-500"></div>
+      <div className="bg-gradient-to-tr from-red-400 to-yellow-400"></div>
     </main>
   );
 };

@@ -9,7 +9,7 @@ export const AuthLogin = () => {
 
   return (
     <main className="h-screen w-full grid grid-cols-2">
-      <div className="bg-green-500"></div>
+      <div className="bg-gradient-to-tr from-red-400 to-yellow-400"></div>
       <div className="flex justify-center items-center">
         <div className="w-[320px] space-y-3">
           <Input
@@ -26,7 +26,7 @@ export const AuthLogin = () => {
           <Button
             isLoading={isLoading}
             onClick={handlingSubmitLogin}
-            color="primary"
+            className=" bg-gradient-to-tr from-red-400 to-yellow-400 text-white"
           >
             Login
           </Button>
