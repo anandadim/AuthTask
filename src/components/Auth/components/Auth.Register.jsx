@@ -13,7 +13,7 @@ export const AuhtRegister = () => {
         <div className="w-[320px] space-y-3">
           <Input
             name="name"
-            placeholder="put your email here"
+            placeholder="put your name here"
             onChange={handleChange}
           />
           <Input
